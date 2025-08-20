@@ -25,4 +25,4 @@ jobs:
         run: |
           gigalixir login -e "$GIGALIXIR_EMAIL" -p "$GIGALIXIR_PASSWORD"
           gigalixir git:remote "$GIGALIXIR_APP"
-          git push gigalixir HEAD:master
+          git push -u gigalixir master
