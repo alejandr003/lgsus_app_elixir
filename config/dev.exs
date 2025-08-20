@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :lgsus_app, LgsusApp.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "jesus",
+  password: "jesus31",
   hostname: "localhost",
   database: "lgsus_app_dev",
   stacktrace: true,
